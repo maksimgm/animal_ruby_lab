@@ -34,32 +34,3 @@ describe "Animal Test" do
     end
   end 
 end
-
-describe "Dog Test" do
-  
-  before(:all) do
-    @animal = Animal.new("Spot",3,true)
-  end
-
-
-
-end
-
-describe "Dog Test" do
-  
-  before(:all) do
-    @dog = Dog.new("Spot",3,favorite_treat)
-  end
-
-  describe "Spot is an instance of animal"
-    it "Spot returns true" do
-      expect(@dog.name).to be_an_instance_of(Animal)
-    end
-  end
-
-  describe ""
-
-end
-
-
-

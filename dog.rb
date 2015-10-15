@@ -1,13 +1,10 @@
 require_relative "./animal.rb"
 
-
-
-
 class Dog < Animal
 
   attr_accessor :favorite_treat
   # class variable.... Dog.favorite_treats
-  @@favorite_treats = [coffee, whiskey, cookies]
+  @@favorite_treats = ["coffee", "whiskey", "cookies"]
 
   def initialize name, age
     super name, age
